@@ -1,0 +1,28 @@
+
+# Private data
+*.csv
+data/
+logs/
+*.log
+error_log
+
+# Passwords and configuration
+config.php
+config.ini
+dashboard.ini
+passwordhash.php
+*.env
+
+# Server-specific settings
+.htaccess
+
+# Backups and generated bundles
+*.bak
+*.old
+*.new
+*.tar.gz
+RaceEntry-bundle-*.txt
+
+# Testing utilities that may contain secrets
+test.php
+test_emailsend.php
